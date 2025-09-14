@@ -15,6 +15,10 @@ class Employee:
 
 #create an object/instance of a class
 sam = Employee()
+sam.name = "Sam Kumar"
+print(sam.name)
+sam = Employee()
+print(id(sam))
 # print(sam.salary)
 # sam.travel("Kerala")
 
